@@ -67,6 +67,8 @@ body {
 .btn-primary:active {
   background-color: hsl(180, 25%, 20%);
 }
+
+
 .validation-feedback {
   margin-top: 1rem;
   text-align: center;
@@ -76,4 +78,13 @@ body {
 }
 .d-none {
   display: none;
+}
+
+
+.input-group.error input {
+  border-color: var(--error-color);
+}
+
+.input-group.success input {
+  border-color: var(--success-color);
 }
