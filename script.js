@@ -50,7 +50,7 @@ const checkFirstName = () => {
 
 	if (!isRequired(firstName)) {
 		showError(firstNameInput, 'First name cannot be blank.');
-		console.log('first name cannot be blank.');
+		console.log('First name cannot be blank.');
 	} else if (/\d/.test(firstName)) {
 		showError(firstNameInput, 'First name cannot have numbers');
 		console.log('First name cannot have numbers.');
